@@ -1,0 +1,21 @@
+[package]
+name = "rust-ui"
+version = "0.1.0"
+authors = ["Jacob Mish <JacobpMish@gmail.com>"]
+edition = "2021"
+build = "build.rs"
+description = "A test ui app built in rust and slint"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+slint = "1.0"
+
+[build-dependencies]
+slint-build = "1.0"
+
+[package.metadata.bundle]
+name = "Rust UI"
+identifier = "io.github.Feromond.rust-ui"
+description = "A test ui app built in rust and slint"
+icon = ["./icon.png", "./icon@2x.png"]
