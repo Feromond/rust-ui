@@ -5,14 +5,15 @@ authors = ["Jacob Mish <JacobpMish@gmail.com>"]
 edition = "2021"
 build = "build.rs"
 description = "A test ui app built in rust and slint"
+license = "MIT"
 
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
 [dependencies]
-slint = "1.0"
+slint = "1.4.1"
 
 [build-dependencies]
-slint-build = "1.0"
+slint-build = "1.4.1"
 
 [package.metadata.bundle]
 name = "Rust UI"
